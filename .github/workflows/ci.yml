@@ -11,3 +11,5 @@ jobs:
           echo "Проверяем код..."
           ls -la
           echo "CI успешно выполнен!"
+      - name: Python code Test
+        run: python main.py
